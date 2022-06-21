@@ -8,7 +8,7 @@ func main() {
 	// enviar
 	go func() {
 		for i := 0; i < 5; i++ {
-			fmt.Println("print index ", i)
+			// fmt.Println("print index ", i)
 			c <- i
 		}
 		close(c)
