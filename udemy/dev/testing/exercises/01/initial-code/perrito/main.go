@@ -1,6 +1,8 @@
 // Package perrito nos permite entender mejor los perros.
 package perrito
 
+import "fmt"
+
 // Edad convierte años humanos en años perros.
 func Edad(n int) int {
 	return n * 7
@@ -13,4 +15,8 @@ func EdadDos(n int) int {
 		count += 7
 	}
 	return count
+}
+
+func SayHello() {
+	fmt.Println("hello")
 }
